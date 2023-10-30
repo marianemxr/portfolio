@@ -4,5 +4,5 @@ Portfólio desenvolvido para a Atividade Prática da disciplina de Fundamentos d
 Créditos (Unsplash):
 Joanna Kosinska,
 Flipsnack,
-Richy Great,
+Richy Great e 
 Roman Synkevych.
