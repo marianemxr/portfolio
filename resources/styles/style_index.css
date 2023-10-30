@@ -1,0 +1,135 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.menu-horizontal{
+    height: 5vh;
+    width: 100vw;
+    background-color: #007EA7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    font-size: large;
+    margin-bottom: 50px;
+    font-weight: normal;
+}   
+
+ul { 
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    width: 400px; 
+    display: block;
+    max-width: 100%;
+}
+        
+li{
+    float: left;
+    display: inline;
+}
+
+li a {
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 5px 25px; 
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #80CED7;
+    color: white;
+    font-weight: bold;
+}
+
+h1, h3, h4{
+    text-align: center;
+    color: #003249;
+}
+
+#Sobre, #Formacao, #Portfolio, #Contato{
+    margin: 0 auto;
+    padding: 0;
+    max-width: 80%;
+    text-align: justify;
+    margin-bottom: 100px;
+    
+}
+
+b {
+    color: #003249;
+}
+
+form {
+    margin: 0 auto;
+    width: 60%;
+    padding: 1em;
+    border: 1px solid #9AD1D4;
+    background-color: #CCDBDC; 
+    border-radius: 1em;
+}
+
+form div + div {
+    margin-top: 1em;
+}  
+
+label {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    text-align: left;
+}
+  
+input,
+textarea {
+    width: 100%;
+    border: 1px solid #9AD1D4;
+    margin: 0 auto;
+    margin-bottom: 1em;
+}
+
+textarea {
+    vertical-align: top;
+    height: 10em;
+    resize: vertical;
+}
+
+button {
+    border: 1px solid #fff;
+    background-color: #007EA7; 
+    width: 100%;
+    color: white;
+    margin: 0 auto;
+}  
+
+.container {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-button {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 1em;
+    text-align: center;
+    align-items: left;
+}
+
+.rodape{
+    height: 15vh;
+    width: 100%;
+    background-color: #007EA7;
+    float: left;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: small;
+}
